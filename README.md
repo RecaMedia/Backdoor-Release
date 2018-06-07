@@ -10,6 +10,14 @@ Backdoor is a standalone browser based code editor that operates on a LAMP serve
 
 To begin installation, goto the URL that points to the Backdoor directory. For example, http://localhost/bkdr/ or http://bkdr.mydomain.com/. The installation wizard should prepopulate some of the inputs for you. Make sure the folder name of the Backdoor application is correct as this may effect some functionality. The default folder name is `bkdr`, unless you change it.
 
+### Requirements
+
+Make sure you have the following PHP modules installed: __*Sqlite3, Mcrypt*__. Also, __*.htacces*__ files will need to be allowed to redirect within the /bkdr directory and subdirectories.
+
+### Reporting
+
+Please visit the [Issues](https://github.com/RecaMedia/Backdoor-Release/issues) tab if you've run into any problems with installation. If you're unable to find answers regarding your issue, feel free to open a new issue and I'll do my best to help resolve the problem. This project is being maintained, however, there is only one contributor so responses may not be as rapid.
+
 ### License
 
 GNU Affero General Public License v3.0

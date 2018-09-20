@@ -12,7 +12,14 @@ To begin installation, goto the URL that points to the Backdoor directory. For e
 
 ### Requirements
 
-Make sure you have the following PHP modules installed: __*Sqlite3, Mcrypt*__. Also, __*.htacces*__ files will need to be allowed to redirect within the /bkdr directory and subdirectories.
+Make sure you have the following PHP modules installed: __*Sqlite3, Mcrypt*__. The www-data user would need writing permission for this application to work properly. Also, __*.htacces*__ files will need to be allowed to redirect within the /bkdr directory and subdirectories. You can use the following sample for your vhost to allow .htaccess redirects:
+```
+<Directory /var/www/>
+	Options Indexes FollowSymLinks
+	AllowOverride None
+	Require all granted
+</Directory>
+```
 
 ### Reporting
 

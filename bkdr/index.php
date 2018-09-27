@@ -1,13 +1,12 @@
 <?php
 /*
-@category   CMS
-@package    Backdoor - Your Online Companion Editor
-@author     Shannon Reca | shannonreca.com
-@copyright  2018 Shannon Reca
-@usage      For more information visit https://github.com/RecaMedia/Backdoor
-@license    https://github.com/RecaMedia/Backdoor/blob/master/LICENSE
-@version    v2.0.4
-@since      01/12/18
+@category   Code Editor
+@package    Backdoor Code Editor
+@author     Shannon Reca
+@copyright  2018 RM Digital Services
+@usage      For installation visit https://github.com/RecaMedia/Backdoor-Release
+@license    https://github.com/RecaMedia/Backdoor-Release/blob/master/LICENSE
+@version    build-092618 v2.0.5
 */
 
 // Defaults.
